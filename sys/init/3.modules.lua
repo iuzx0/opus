@@ -53,8 +53,8 @@ end
 local function damnManipulator(container, method, args, doQueue)
 	local dev = { }
 	local methods = {
-		'drop', 'getDocs', 'getItem', 'getItemMeta', 'getTransferLocations',
-		'list', 'pullItems', 'pushItems', 'size', 'suck',
+		'drop', 'getDocs', 'getItem', 'getItemDetail',
+		'list', 'pullItems', 'pushItems', 'size', 'suck', "getItemLimit",
 	}
 	-- the user might not be logged in when the compputer is started
 	-- and there's no way to know when they have logged in.

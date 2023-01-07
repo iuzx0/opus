@@ -1,2 +1,6 @@
 /ignore
 .project
+.startup.boot
+usr/config
+.settings
+usr/.shell_history
