@@ -39,7 +39,7 @@ if register_global_module_table then
 	_G[global_module_name] = json
 end
 
-local _ENV = nil -- blocking globals in Lua 5.2
+--local _ENV = nil -- blocking globals in Lua 5.2
 
 pcall (function()
 	-- Enable access to blocked metatables.
